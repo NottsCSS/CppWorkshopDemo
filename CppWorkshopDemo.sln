@@ -9,7 +9,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ExceptionMemoryLeakDemo", "
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BufferOverflowDemo", "BufferOverflowDemo\BufferOverflowDemo.vcxproj", "{770AF986-D201-4058-AD1F-A29494E5A37A}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ItemStockingBasic", "ItemStockingBasic\ItemStockingBasic.vcxproj", "{A2DC821F-599D-4388-B03C-54F31D4877C9}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StudentIDBasic", "ItemStockingBasic\ItemStockingBasic.vcxproj", "{A2DC821F-599D-4388-B03C-54F31D4877C9}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConditionalDemo", "ConditionalDemo\ConditionalDemo.vcxproj", "{880A1C71-79EF-4A23-8E2B-A7DF917B2031}"
 EndProject
@@ -20,6 +20,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "iostreamDemo", "iostreamDemo\iostreamDemo.vcxproj", "{1A8CFA29-A573-4850-90EB-23E920E23A23}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HelloWorld", "HelloWorld\HelloWorld.vcxproj", "{5BD7A9B5-5D49-4411-9D13-731252179F05}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StudentIDBareBones", "StudentIDBareBones\StudentIDBareBones.vcxproj", "{BDA8F718-0AF9-44DC-8831-1E57463B78B5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -121,6 +123,16 @@ Global
 		{5BD7A9B5-5D49-4411-9D13-731252179F05}.Release|x64.Build.0 = Release|x64
 		{5BD7A9B5-5D49-4411-9D13-731252179F05}.Release|x86.ActiveCfg = Release|Win32
 		{5BD7A9B5-5D49-4411-9D13-731252179F05}.Release|x86.Build.0 = Release|Win32
+		{BDA8F718-0AF9-44DC-8831-1E57463B78B5}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{BDA8F718-0AF9-44DC-8831-1E57463B78B5}.Debug|x64.ActiveCfg = Debug|x64
+		{BDA8F718-0AF9-44DC-8831-1E57463B78B5}.Debug|x64.Build.0 = Debug|x64
+		{BDA8F718-0AF9-44DC-8831-1E57463B78B5}.Debug|x86.ActiveCfg = Debug|Win32
+		{BDA8F718-0AF9-44DC-8831-1E57463B78B5}.Debug|x86.Build.0 = Debug|Win32
+		{BDA8F718-0AF9-44DC-8831-1E57463B78B5}.Release|Any CPU.ActiveCfg = Release|Win32
+		{BDA8F718-0AF9-44DC-8831-1E57463B78B5}.Release|x64.ActiveCfg = Release|x64
+		{BDA8F718-0AF9-44DC-8831-1E57463B78B5}.Release|x64.Build.0 = Release|x64
+		{BDA8F718-0AF9-44DC-8831-1E57463B78B5}.Release|x86.ActiveCfg = Release|Win32
+		{BDA8F718-0AF9-44DC-8831-1E57463B78B5}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
