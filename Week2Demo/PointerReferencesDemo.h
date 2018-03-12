@@ -13,12 +13,12 @@ void pointerDemo()
 	//this is the same as 
 	//int *b = &a;
 
-	std::cout << a << '\t' << b << std::endl;
+	std::cout << a << '\t' << *b << std::endl;
 
 	//dereference b and store 20 into it
 	*b = 20; //note the * is not during type declaration
 	std::cout << "After changing:" << std::endl;
-	std::cout << a << '\t' << b << std::endl;
+	std::cout << a << '\t' << *b << std::endl;
 
 }
 
