@@ -25,6 +25,7 @@ inline void voidFunction2()
 
 using FnPtr = int(*)(char);
 using voidFnPtr = void(*)();
+using voidFnPtrPtr = void(**)();
 
 inline void usingDemo()
 {
@@ -41,4 +42,23 @@ inline void usingDemo()
 		fnPtr();
 	}
 	
+}
+
+typedef int (*FnPtr2)(char);
+typedef void (*voidFnPtr2)();
+
+inline void typedefDemo()
+{
+	std::vector<FnPtr2> fnPtrList = { function1Demo, function2Demo };
+	for (auto &fnPtr : fnPtrList)
+	{
+		std::cout << "Function returns: " << fnPtr('k') << std::endl;
+	}
+
+	std::vector<voidFnPtr2> fnPtrList2 = { voidFunction1, voidFunction2 };
+	std::cout << "Now calling void functions: " << std::endl;
+	for (auto &fnPtr : fnPtrList2)
+	{
+		fnPtr();
+	}
 }

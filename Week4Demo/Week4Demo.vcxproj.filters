@@ -30,6 +30,9 @@
     <ClInclude Include="UsingDemo.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="ObjectOwnershipDemo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">

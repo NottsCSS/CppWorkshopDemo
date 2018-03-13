@@ -4,15 +4,15 @@
 inline void stackOverflow()
 {
 	int j = 100;
-	const int k = 100000;
+	const int k = 1000000;
 
 	//Stack array declaration
-	long list1[k] = {}; //will stack overflow at k = 1000000
-	for(size_t i = 0;i<k;i++)
-	{
-		list1[i] = k + j; //arbitrary numbers being put in
-		j++;
-	}
+//	long list1[k] = {}; //will stack overflow at k = 1000000
+//	for(size_t i = 0;i<k;i++)
+//	{
+//		list1[i] = k + j; //arbitrary numbers being put in
+//		j++;
+//	}
 
 	//Heap array declaration
 	long* list2 = new long[k]; //will not stack overflow...ever
@@ -22,6 +22,7 @@ inline void stackOverflow()
 		j++;
 	}
 	delete[] list2; //deletes the array (otherwise will lead to memory leak)
+	list2 = nullptr; //always set it to nullptr to prevent dangling pointer
 }
 
 inline int* newExample()
